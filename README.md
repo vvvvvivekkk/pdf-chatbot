@@ -43,16 +43,16 @@ pdf-chatbot/
 git clone https://github.com/vvvvvivekkk/pdf-chatbot.git
 cd pdf-chatbot
 
-python -m venv venv
+python -m venv venv 1
 
 # Windows
-venv\Scripts\activate
+venv\Scripts\activate 2
 
 # Mac/Linux
 source venv/bin/activate
 
-pip install -r requirements.txt
-```
+pip install -r requirements.txt 3
+
 
 Create a `.env` file:
 
